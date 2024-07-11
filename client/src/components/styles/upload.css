@@ -1,0 +1,236 @@
+
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .choose {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #5aff15, #00b712);
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  .choose:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  .textArea {
+    color: white;
+  }
+  
+  .upload {
+ 
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+  }
+  
+  /*  */
+  
+  .upload:disabled,
+  .upload[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  
+ 
+  .file-upload-container {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px; */
+  }
+  .chosen{
+    margin-top: 10%;
+  }
+  
+  .choose {
+    background-image: linear-gradient(-180deg, #009ffd, #2a2a72);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .choose:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  
+  .choose:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .file-name {
+    margin-top: 10px;
+  }
+  
+  .upload {
+    margin-top: 10px;
+    background-image: linear-gradient(-180deg, #009ffd, #2a2a72);
+    color: #d9d0d0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .upload:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  
+  .upload:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  /* Add styles for the document  page */
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    margin: 80px;
+  }
+  
+  .profile-avatar {
+    width: 200px;
+  
+   
+    /* border-radius: 50%; */
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info 
+   {
+    margin: 0;
+    
+    
+    
+    
+  }
+  .para{
+    cursor: pointer;
+      color:#fff;
+      font-size: 18px;
+      line-height: 1.9;
+      max-width: 900px;
+      text-align: center;
+  }
+  .external-links {
+    /* align-items: center; */
+
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    display: flex;
+   
+  }
+  
+  .external-links a {
+   
+    display: inline-block;
+    max-width: 50%;
+ 
+    margin: 0px 0px;
+    margin-right: 63px;
+  }
+  
+  .external-links img {
+    
+    margin-top: 7px;
+   
+   max-width: 100%;
+   
+    /* overflow: hidden; */
+    height: 100%;
+    padding-left: 50px;
+  
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .external-links  {
+      max-width: 80%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .external-links {
+      max-width: 100%;
+    }
+  }
+  
+  .external-links img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+  .blockchain-heading {
+    color: #fcf1f1;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 0px; 
+    text-align: center;
+  
+    transition: color 0.5s ease;
+    cursor: pointer;
+  }
+  .blockchain-heading:hover{
+    transform: translateY(-10px);
+    color: #a79c9c;
+  }
+  .blockchain-description2 {
+    cursor: pointer;
+    color:#fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+
+text-align: start;
+  
+margin-right: 25px;
+   
+    
+  }
+  .blockchain-description2:hover{
+    color: #a79c9c;
+  }
+  .content-container {
+
+margin: 0px;
+
+
+
+  
+  
+  } 

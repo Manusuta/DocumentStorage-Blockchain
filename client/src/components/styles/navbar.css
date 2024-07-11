@@ -1,0 +1,102 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #212020;
+    padding: 1rem;
+    /* position: fixed; 
+     width: 100%; */
+   
+  }
+  
+   .navbar-brand {
+  
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style:oblique;
+    font-weight: 800;
+    color:  #2194d7;
+    transition: transform 0.3s ease;
+  }
+  .navbar-brand:hover {
+    color: #009ffd;
+    transform: translateY(-2px); /* Adjust the value to control the amount of flow */
+   
+   }
+  
+  
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 1 ;
+  
+    
+  }
+  
+  .navbar-links li {
+    margin-right: 2rem;
+    /* padding-top: 34px; */
+   
+  
+  }
+  
+  .navbar-links li a {
+    color: #d9d0d0;
+   
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-links li a:hover {
+    color:  #2194d7;
+    transform: translateY(-2px);
+  }
+  
+  .metamask-button {
+    background-image: linear-gradient(-180deg, #009ffd, #2a2a72);
+    color: #292828;
+    border: none;
+    padding: 0.2rem 2rem ;
+   
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 10% ;
+  }
+  .metamask-button:hover{
+    transform: translateY(-2px);
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+   color:  #d9d0d0;
+  }
+  
+  .metamask-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .account-info p {
+  color: #d9d0d0;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  
+  
+  }
+  .disabled {
+    pointer-events: none; /* Disable click events */
+    color: #aaa; /* Set the color for disabled state */
+    cursor: not-allowed; /* Show not-allowed cursor on hover */
+  }

@@ -1,0 +1,168 @@
+
+
+.home-container {
+    background-color: black;
+    
+      /* margin: 0 auto; */
+      height: 100%;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .carousel-container {
+     
+   max-height: 450px;
+  
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+    .slide img {
+     max-height: 450px;
+      /* height: auto; */
+   
+      border-radius: 8px;
+    }
+    
+    
+    @media (max-width: 768px) {
+      .slide {
+        max-width: 80%;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .slide {
+        max-width: 100%;
+      }
+    }
+    .header-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+    
+    .header-container h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .header-container p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .explore-link {
+      display: inline-block;
+      font-size: 1.2rem;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #fff;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .explore-link:hover {
+      background-color: #fff;
+      color: #333;
+    }
+    
+    .explore-link svg {
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+    .card-container {
+      display: flex;
+      padding-top: 10rem;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .card {
+      flex: 0 0 calc(25% - 10px);
+      background-color: #f2f2f2;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    
+    .card h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #333;
+      margin-top: 1rem;
+    }
+    
+    .card p {
+      font-size: 1rem;
+      color: #666;
+      margin-top: 1rem;
+      line-height: 1.5;
+    }
+    
+    .see-more-link {
+      display: inline-block;
+      font-size: 1rem;
+      color: #3f51b5;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: color 0.3s ease;
+    }
+    
+    .see-more-link:hover {
+      color: #2c3e70;
+    }
+   
+    .blockchain-heading {
+      color: #fff;
+      font-size: 36px;
+      font-style: oblique;
+      font-weight: bold;
+    /* padding: 100px; */
+      transition: color 0.5s ease;
+      cursor: pointer;
+   
+  
+  
+  
+    }
+    .h{
+      padding-left: 115px;
+      padding-top: 33px;
+    }
+    .blockchain-heading:hover{
+      transform: translateY(-10px);
+      color: #a79c9c;
+    }
+    .blockchain-description {
+      cursor: pointer;
+      color:#fff;
+      font-size: 16px;
+      line-height: 1.9;
+      min-width: 100px;
+ 
+   display: block;
+   margin: auto;
+      padding-top: 30px;
+      /* margin-bottom: 0px; */
+    }
+    .blockchain-description:hover{
+      color: #a79c9c;
+    }

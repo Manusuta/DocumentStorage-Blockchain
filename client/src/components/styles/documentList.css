@@ -1,0 +1,100 @@
+/* styles/documentList.css */
+
+.document-list-container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+   
+  }
+  
+  .card1{
+    background: rgb(59, 58, 58); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px; /* Smaller card width */
+    padding: 10px; /* Smaller padding */
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    width: 100%; /* Smaller icon size */
+    height: 100%;
+    object-fit: contain;
+    padding-top: 25px;
+    margin-bottom: 70px;
+  }
+  
+  .image-list {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .download-button {
+    background-color: #009ffd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+
+    transform: translatey(-5px);
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  .share-button {
+    background-color: #009ffd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 12px;
+    transition: background-color 0.3s ease;
+  }
+  .share-button:hover {
+    transform: translatey(-5px);
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  
+  
+  .folder-icon {
+    width: 100%; /* Smaller icon size */
+    height: 100%;
+    object-fit: contain;
+    padding-top: 25px;
+    margin-bottom: 70px;
+  }
+  
+  .card span {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .blockchain-description1 {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+  }
+  .search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
